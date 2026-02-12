@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", "sans-serif";
+}
+
+:root {
+  --bg-title: #1d3557;
+  --c-title: #ffffff;
+  --bg-paragraph: #457b9d;
+}
+
+.landing {
+  background-image: url("../imgs/hometown.png");
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--c-title);
+}
+
+.landing h1 {
+  background-color: var(--bg-title);
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 0 auto 12px;
+  border-radius: 10px;
+}
+
+.landing p {
+  background-color: var(--bg-paragraph);
+  width: 500px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.activities {
+  padding: 40px 0;
+  background-color: #f1faee;
+}
+
+.activities .title {
+  text-align: center;
+  color: var(--bg-title);
+  font-size: 2.5rem;
+}
+
+.activities .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  text-align: center;
+  padding: 40px;
+}
+
+.activities .container .activity {
+}
+
+.activiy-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.activity-tip {
+  width: 300px;
+  margin: 0 auto 20px;
+  color: var(--bg-title);
+  font-size: 1.1rem;
+}
+
+.activity-text {
+  width: 300px;
+  color: var(--bg-title);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.guide {
+  display: flex;
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #a8dadc;
+  border-radius: 15px;
+  border-bottom: 8px solid var(--bg-title);
+}
+
+.guide .img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.guide .img-wrapper .guider-img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.guide > .text {
+  text-align: center;
+}
+
+.guide > .text .title {
+  font-size: 1.8rem;
+  padding: 30px;
+  color: var(--bg-title);
+}
+
+.guide > .text > .text {
+  padding-bottom: 30px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--bg-title);
+}
+
+.guide-name {
+  color: var(--bg-title);
+}
