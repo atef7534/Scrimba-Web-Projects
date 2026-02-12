@@ -1,33 +1,28 @@
-📁 Scrimba‑Web‑Projects
+# 🌐 Scrimba-Web-Projects
 
-Welcome to Scrimba‑Web‑Projects — a collection of personal web development projects I built while learning HTML & CSS through Scrimba 🎓. This repo showcases my hands‑on practice applying the foundational skills I gained from the Scrimba curriculum and turning them into real, working websites.
+![GitHub repo size](https://img.shields.io/github/repo-size/atef7534/Scrimba-Web-Projects) 
+![GitHub last commit](https://img.shields.io/github/last-commit/atef7534/Scrimba-Web-Projects)
+![GitHub top language](https://img.shields.io/github/languages/top/atef7534/Scrimba-Web-Projects)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-💻 What’s Inside
+Welcome to **Scrimba-Web-Projects** — a collection of web development projects I built while learning **HTML & CSS** through [Scrimba](https://scrimba.com). This repo showcases my hands-on practice turning lessons into real, working websites. 🚀
 
-🗂️ Hometown – A solo project inspired by my own city, created using pure HTML & CSS. It highlights layouts, structure, styling, and responsive basics that are essential for modern web pages.
+## 🗂️ Projects
 
-This repository focuses on:
+### 🏡 Hometown
+A solo project inspired by my hometown, created entirely with **HTML & CSS**. This project highlights layouts, structure, styling, and responsive basics — essential skills for modern web pages.
 
-📌 Clean and semantic HTML markup
+- ✅ Clean and semantic HTML markup
+- 🎨 Styled layouts using CSS
+- 📱 Mobile-friendly and readable design
+- 🛠️ Real exercises based on Scrimba lessons
 
-🎨 Styled layouts using CSS
+## 🌟 Why This Repo Matters
+This repository reflects my journey as a frontend developer. Starting with core web technologies allowed me to build a strong foundation before moving on to frameworks or advanced tools. Each project demonstrates my progress and dedication to learning.
 
-📱 Mobile‑friendly and readable design
+## 🔗 Live Demo & Code
+- 💻 **Source Code:** [GitHub Repo](https://github.com/atef7534/Scrimba-Web-Projects)  
+- 🌐 **Live Demo:** [Add your live demo URL here]  
 
-🛠️ Real exercises based on Scrimba lessons
-
-Each file and folder in this repo represents a step in my learning journey, showing how concepts like tags, classes, layouts, and styling come together in practice.
-
-🚀 Why This Project Matters
-
-This repo isn’t just code — it’s proof of progress. As someone new to frontend development, I chose to start with the basics and build projects from scratch rather than use frameworks. This helped me strengthen my understanding of core web technologies first.
-
-🔗 Where to See It
-
-Feel free to explore the code or run the project yourself:
-
-📌 Live Demo: Add your live URL here
-
-💻 Source Code: This repo
-
-This project reflects the beginning of my web‑development path and my commitment to improving my skills step‑by‑step. Thanks for stopping by — I hope it inspires you to build your own projects! 🚀
+Thanks for visiting! I hope this repo inspires you to build your own projects and improve your web development skills. ✨
