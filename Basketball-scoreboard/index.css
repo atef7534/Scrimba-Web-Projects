@@ -1,0 +1,54 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 40px 20px;
+}
+
+.title {
+    color: white;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src:  url("myfont.ttf");
+}
+
+.home-score,
+.guest-score {
+    font-family: "Cursed Timer ULiL";
+    font-size: 3.5rem;
+    color: #F94F6D;
+    background-color: black;
+    text-align: center;
+    padding: 20px 40px;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls button {
+    font-family: "Cursed Timer ULiL";
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    color: #9AABD8;
+    cursor: pointer;
+}
