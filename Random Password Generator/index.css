@@ -1,0 +1,99 @@
+body {
+  font-family: "karla", sans-serif;
+  background-color: var(--bg-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #1f2937;
+  --text-color: #4adf86;
+  --warning-color: #d5d4d8;
+  --bg-btn: #10b981;
+  --bd-color: #2f3e53;
+  --bg-paragraph: #273549;
+  --pd-color: #55f991;
+}
+
+#wrapper {
+  width: 80%;
+  margin: 100px auto;
+}
+
+#upper {
+  border-bottom: 1px solid var(--bd-color);
+  padding-block: 40px;
+}
+
+#title {
+  font-size: 3.5rem;
+  color: white;
+  line-height: 0.9;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 15px;
+}
+
+#title .special-title {
+  display: block;
+  color: var(--text-color);
+}
+
+#warning {
+  color: var(--warning-color);
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin-bottom: 60px;
+  letter-spacing: -1px;
+}
+
+#generate-btn {
+  color: white;
+  background-color: var(--bg-btn);
+  padding: 10px 25px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#generate-btn:active {
+  outline: 4px solid #10b9818e;
+}
+
+#lower {
+  padding-block: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#random-password-1,
+#random-password-2 {
+  background-color: var(--bg-paragraph);
+  width: 250px;
+  height: 45px;
+  border-radius: 6px;
+  margin-left: 20px;
+  color: var(--pd-color);
+  line-height: 42px;
+  text-align: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s border linear;
+}
+
+.copy {
+    border: 3px solid rgb(64, 113, 205);
+}
+
+.copied {
+    border: 3px solid #ddd;
+}
