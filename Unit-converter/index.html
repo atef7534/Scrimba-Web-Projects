@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <section id="header">
+      <h1 id="metric-title">Metric/Imperial Unit Conversion</h1>
+      <input type="text" value="20" id="units" />
+      <button id="convert-btn">Convert</button>
+    </section>
+    <main class="main">
+      <section class="length">
+        <h2 id="section-title">Length (Meter/Feet)</h2>
+        <p id="section-details">
+          <span class="unit">20</span>
+          meters = <span class="feet"></span> feet |
+          <span class="unit">20</span>
+          feet = <span class="meters"></span> meters
+        </p>
+      </section>
+      <section class="volume">
+        <h2 id="section-title">Volume (Liters/Gallons)</h2>
+        <p id="section-details">
+          <span class="unit">20</span>
+          liters = <span class="gallons"></span> gallons |
+          <span class="unit">20</span>
+          gallons = <span class="liters"></span> liters
+        </p>
+      </section>
+      <section class="mass">
+        <h2 id="section-title">Mass (Kilograms/Pounds)</h2>
+        <p id="section-details">
+          <span class="unit">20</span>
+          kilos = <span class="pounds"></span> pounds |
+          <span class="unit">20</span>
+          pounds = <span class="kilos"></span> kilos
+        </p>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
